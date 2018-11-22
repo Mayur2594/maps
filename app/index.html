@@ -24,6 +24,7 @@ app.controller('myCtrl', function($scope) {
 //jQuery.getJSON( "https://services.amcharts.com/ip/?v=xz6Z", function( geo ) {
 
 		$scope.Countrycodes = [ 
+  {name: 'Sample Demo', code: 'sample'},  
   {name: 'Afghanistan', code: 'AF'},  
   {name: 'Albania', code: 'AL'}, 
   {name: 'Algeria', code: 'DZ'}, 
@@ -300,7 +301,8 @@ app.controller('myCtrl', function($scope) {
     "UZ": [ "uzbekistanLow" ],
     "VE": [ "venezuelaLow" ],
     "VN": [ "vietnamLow" ],
-    "YE": [ "yemenLow" ]
+    "YE": [ "yemenLow" ],
+    "sample": [ "sampleLand" ]
   };
  // calculate which map to be used
   var currentMap = defaultMap;
